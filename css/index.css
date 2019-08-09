@@ -70,7 +70,10 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    padding-right:5%;
+    padding-left:5;
+    margin-left:50px;
+    margin: 0 auto%;
     background-color:#fff;
 }
 
@@ -107,7 +110,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width:48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -123,14 +126,14 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes-row {
+.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 /* The section where I realized that maybe I wasn't cut out for the designer life... */
-.middle-content .boxes-row .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
