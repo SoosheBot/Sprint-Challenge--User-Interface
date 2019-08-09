@@ -70,8 +70,8 @@ p {
 
 .container {
     width: 800px;
-    padding-right:5%;
-    padding-left:5%;
+    padding-right:0 5%;
+    padding-left:05%;
     margin-left:50px;
     margin: 0 auto;
     background-color:#fff;
@@ -80,7 +80,7 @@ p {
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     font-size: 14px;
     padding-top:20px;
@@ -137,7 +137,7 @@ p {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
