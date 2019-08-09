@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    background-color:#fff;
 }
 
 html, body {
@@ -59,17 +58,20 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    color:black;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    color:black;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color:#fff;
 }
 
 .nav {
@@ -93,6 +95,7 @@ p {
     display:flex;
     padding-bottom:25px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .top-content {
@@ -112,6 +115,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -151,7 +155,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 70%;
     background: black;
 }
 
