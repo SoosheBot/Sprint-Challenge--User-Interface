@@ -155,14 +155,19 @@ p {
 }
 
 footer {
-    width: 70%;
+    width: 80%;
     background: black;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:center;
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
