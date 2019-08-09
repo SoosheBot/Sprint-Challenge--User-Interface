@@ -71,7 +71,7 @@ p {
 .container {
     width: 800px;
     padding-right:5%;
-    padding-left:5;
+    padding-left:5%;
     margin-left:50px;
     margin: 0 auto%;
     background-color:#fff;
@@ -103,14 +103,14 @@ p {
 
 .top-content {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 
-.container-about-page .text-container {
+.about-text-container {
     width:100%;
     display:flex;
     padding: 0 1%;
