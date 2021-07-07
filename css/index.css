@@ -70,17 +70,17 @@ p {
 
 .container {
     width: 800px;
-    padding-right:5%;
-    padding-left:5;
-    margin-left:50px;
-    margin: 0 auto%;
+    padding-right:0 5%;
+    padding-left:0 5%;
+    /* margin-left:50px; */
+    margin: 0 auto;
     background-color:#fff;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     font-size: 14px;
     padding-top:20px;
@@ -101,43 +101,43 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+#top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+#top-content .text-container {
     width:48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+#middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     
 }
 
-.middle-content h2 {
+#middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+#middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 /* The section where I realized that maybe I wasn't cut out for the designer life... */
-.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+#middle-content .boxes div{
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,17 +175,17 @@ p {
     background-color:dodgerblue;
 }
 
-.bottom-content {
+#bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+#bottom-content .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+#bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
